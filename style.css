@@ -438,10 +438,10 @@ footer { padding: 2.2rem 0; color: var(--muted); }
   border-radius: 999px;
 }
 html[data-theme="light"] .profile-pic{
-    content: url("images/pjl.jpg");
+    content: url("pjl.jpg");
 }
 html[data-theme="dark"] .profile-pic{
-    content: url("images/pj.jpg");
+    content: url("pj.jpg");
 }
 html[name-theme="light"] .my-name{
   color: rgb(255, 53, 53);
@@ -454,7 +454,7 @@ html[bar-theme="dark"] .bar > span { display: block; height: 100%; background: l
 .toggle button {
   border: 0;
   background: transparent;
-  padding: .7rem .8rem;
+  padding: .6rem .8rem;
   border-radius: 999px;
   color: var(--muted);
 }
@@ -521,14 +521,14 @@ html[bar-bg="dark"]  .bar{
   background: rgba(255,255,255,.12);
 }
 html[dwicon="light"]  .dw-icon{
-  content: url("images/light.png");
+  content: url("light.png");
 }
 html[dwicon="dark"]  .dw-icon{
-  content: url("images/dark.png");
+  content: url("dark.png");
 }
 html[border-theme="light"] .btn-ghost {
   border-color: rgb(249, 62, 62);
 }
 html[border-theme="dark"] .btn-ghost {
   border-color: rgb(50,153,255);
-}
+}
