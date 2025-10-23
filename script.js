@@ -34,7 +34,7 @@ function setLight() {
   document.documentElement.setAttribute("bg","light");
   document.documentElement.setAttribute("bar-bg","light");
   document.documentElement.setAttribute("dwicon","light");
-  document.documentElement.setAttribute("border-theme","light");
+  document.documentElement.setAttribute("border-theme","light");
   lightBtn.classList.add('active'); darkBtn.classList.remove('active');
   localStorage.setItem('theme','light');
 }
@@ -54,7 +54,7 @@ function setDark() {
   document.documentElement.setAttribute("send-btn","dark");
   document.documentElement.setAttribute("bg","dark");
   document.documentElement.setAttribute("bar-bg","dark");
-  document.documentElement.setAttribute("dwicon","dark");
+  // document.documentElement.setAttribute("dwicon","dark");
   document.documentElement.setAttribute("border-theme","dark");
   darkBtn.classList.add('active'); lightBtn.classList.remove('active');
   localStorage.setItem('theme','dark');
