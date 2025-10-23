@@ -54,7 +54,7 @@ function setDark() {
   document.documentElement.setAttribute("send-btn","dark");
   document.documentElement.setAttribute("bg","dark");
   document.documentElement.setAttribute("bar-bg","dark");
-  // document.documentElement.setAttribute("dwicon","dark");
+  document.documentElement.setAttribute("dwicon","dark");
   document.documentElement.setAttribute("border-theme","dark");
   darkBtn.classList.add('active'); lightBtn.classList.remove('active');
   localStorage.setItem('theme','dark');
@@ -83,3 +83,4 @@ if(saved === 'dark') setDark();
       card.addEventListener('focus', () => card.style.borderColor = 'var(--ring)');
       card.addEventListener('blur', () => card.style.borderColor = 'rgba(255,255,255,.08)');
     });
+
