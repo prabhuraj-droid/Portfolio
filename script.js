@@ -6,7 +6,7 @@ const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
 
 hamburger.addEventListener('click', () => {
-  mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+  mobileMenu.classList.toggle('show');
 });
 
 // Close mobile menu when link clicked
@@ -83,4 +83,5 @@ if(saved === 'dark') setDark();
       card.addEventListener('focus', () => card.style.borderColor = 'var(--ring)');
       card.addEventListener('blur', () => card.style.borderColor = 'rgba(255,255,255,.08)');
     });
+
 
