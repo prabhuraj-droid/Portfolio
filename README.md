@@ -23,11 +23,11 @@ To view or run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/prabhu-raj-v/Portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-portfolio
+   cd Portfolio
    ```
 3. Open `index.html` in your preferred browser, or start your local development server if using a framework.
 
